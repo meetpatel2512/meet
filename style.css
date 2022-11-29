@@ -1,0 +1,417 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+.home {
+    background-color: black;
+    height: 100vh;
+    z-index: 1;
+    width: 100vw;
+}
+
+.navbar {
+    transition: transform 0.3s ease-in;
+
+
+
+}
+
+.mycontainer {
+    display: flex;
+}
+
+.navbargo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+
+}
+
+.navbar ul li {
+    width: 25vw;
+    background-color: #231d23;
+    height: 100vh;
+    padding: 100px 0px;
+    z-index: 2;
+
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 20px 0px;
+    display: flex;
+    color: white;
+    justify-content: center;
+
+}
+
+
+.navbar ul li a:hover {
+    color: #C62828;
+
+}
+
+.infocontainer {
+    margin: 64px 0px;
+    height: 75vh;
+    width: 75vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+a .cv,
+a .hire {
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: #C62828;
+    margin: 7px 0px;
+}
+
+a .cv:hover {
+    background-color: black;
+    color: #C62828;
+    border-color: #C62828;
+
+}
+
+a .hire:hover {
+    background-color: black;
+    color: #C62828;
+    border-color: #C62828;
+}
+
+button {
+    margin-right: 10px;
+}
+
+.hello {
+    font-size: 40px;
+    margin: 0px 10px;
+    color: white;
+}
+
+.devname {
+    font-size: 30px;
+    margin: 0px 10px;
+    color: white;
+}
+
+.devabout {
+    font-size: 20px;
+    margin: 8px 10px;
+    color: white;
+}
+
+.mypic img {
+    height: 50vh;
+    margin: 20px 0px;
+}
+
+.devinfo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 40px 0px 0px;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.hamburger img {
+    height: 22px;
+}
+
+
+.about {
+    height: 100vh;
+    background-color: white;
+
+}
+
+.myabout p {
+    color: white;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.skill {
+    height: 100vh;
+    background-color: black;
+
+}
+
+.myskill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62vh;
+    flex-direction: column;
+}
+
+.progressbar {
+    width: 70vw;
+    height: 12px;
+    border: 1px solid red;
+    box-shadow: 0 0 10px #c62828;
+    border-radius: 5px;
+}
+
+.language {
+    background-color: #C62828;
+    display: block;
+    height: 100%;
+    border-radius: 5px;
+    animation: progress 5s;
+}
+
+@keyframes progress {
+    from {
+        width: 0;
+    }
+
+}
+
+.myskillfont {
+    font-size: 16px;
+    margin: 10px 0px;
+    color: white;
+}
+
+.c {
+    width: 75%;
+}
+
+.java {
+    width: 83%;
+}
+
+.html {
+    width: 85%;
+}
+
+.css {
+    width: 65%;
+}
+
+.js {
+    width: 63%;
+}
+
+.python {
+    width: 70%;
+}
+
+.contact {
+    height: calc(100vh - 10vh);
+    background-color: white;
+}
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mycont {
+    height: 40vh;
+    width: 40vw;
+}
+
+/* input {
+    background-color: #231d23;
+    height: 5vh;
+    width: 38vw;
+    border-radius: 10px;
+    padding: 10px;
+    border-bottom: 2px solid #C62828;
+    margin: 3vh 0px;
+} */
+
+/* textarea {
+    background-color: #231d23;
+    border-radius: 10px;
+    padding: 10px;
+    border-bottom: 2px solid #C62828;
+    margin: 3vh 0px;
+    resize: none;
+    height: 17vh;
+    width: 38vw;
+} */
+
+/* .sbtn {
+    padding: 10px 30px;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    background-color: black;
+    border-color: #C62828;
+} */
+input {
+    height: 6.5vh;
+    width: 38vw;
+    border-radius: 10px;
+    padding: 10px;
+    border-bottom: 2px solid #C62828;
+    margin: 3vh 0px;
+    color: black;
+}
+
+textarea {
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #C62828;
+    margin: 3vh 0px;
+    resize: none;
+    height: 17vh;
+    width: 38vw;
+    color: black;
+}
+
+.sbtn {
+    padding: 10px 30px;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    border-color: #231d23;
+    background-color: #C62828;
+}
+
+.sbtn:hover {
+    color: #C62828;
+    background-color: white;
+}
+
+.about h1,
+.skill h1,
+.contact h1 {
+    text-align: center;
+    padding: 20px;
+    color: #C62828;
+}
+
+.copyright {
+    height: 10vh;
+    background-color: #231d23;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0px 7px;
+    color: white;
+}
+
+.lang {
+    height: 30vh;
+    width: 30vw;
+}
+
+.lang h3 {
+    text-align: center;
+    font-size: 28px;
+    padding: 9vh 0px;
+}
+.user img,.location img,.mail img{
+    margin: 10px;
+    height: 40px;
+}
+.digitalcontatct{
+    display: flex;
+    flex-direction: column;
+}
+.digitalcontatct label{
+    position: relative;
+    top: 10px;
+}
+
+@media screen and (max-width:750px),
+(max-hight:600px) {
+    .mypic {
+        display: none;
+    }
+
+    .mycont {
+        height: 43vh;
+        width: 80vw;
+    }
+
+    input {
+        width: 85vw;
+        height: 10px;
+        border-radius: 10px;
+        padding: 2vh;
+        border: 2px solid #C62828;
+        margin: 10px 15px;
+    }
+
+    textarea {
+        width: 85vw;
+        border-radius: 10px;
+        padding: 2vh;
+        border: 2px solid #C62828;
+        margin: 10px 15px;
+        resize: none;
+    }
+
+    .sbtn {
+        padding: 10px 30px;
+        color: white;
+        border-radius: 15px;
+        text-decoration: none;
+        border-color: #231d23;
+        background-color: #C62828;
+       
+    }
+
+    .myskill {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 55vh;
+        flex-direction: column;
+    }
+
+    .progressbar {
+        width: 70vw;
+        height: 12px;
+        border: 1px solid red;
+        box-shadow: 0 0 10px #c62828;
+        border-radius: 5px;
+    }
+
+    .myskillfont {
+        font-size: 12px;
+        margin: 8px 0px;
+        color: white;
+    }
+    .digitalcontatct{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 350px;
+        position: relative;
+        left: 30px;
+    }
+    
+}
+
+.myweb {
+    text-decoration: none;
+    color: #C62828;
+}
