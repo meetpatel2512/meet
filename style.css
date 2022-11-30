@@ -149,7 +149,6 @@ button {
     height: 72vh;
     color: unset;
     width: 97vw;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     background-color: silver;
@@ -370,7 +369,7 @@ textarea {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 55vh;
+        height: 50vh;
         flex-direction: column;
     }
 
@@ -383,8 +382,8 @@ textarea {
     }
 
     .myskillfont {
-        font-size: 12px;
-        margin: 8px 0px;
+        font-size: 10px;
+        margin: 5px 0px;
         color: white;
     }
     .digitalcontatct {
