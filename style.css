@@ -176,7 +176,7 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 70vh;
+    height: 55vh;
     width: 90vw;
 }
 
@@ -208,8 +208,8 @@ hr{
 }
 
 .myskillfont {
-    font-size: 16px;
-    margin: 9px 0px;
+    font-size: 14px;
+    margin: 7px 0px;
     color: white;
 }
 
@@ -328,7 +328,7 @@ textarea {
 }
 
 @media screen and (max-width:750px),
-(max-hight:600px) {
+(max-hight:812px) {
     .mypic {
         display: none;
     }
@@ -398,9 +398,7 @@ textarea {
     }
     
 }
-
 .myweb {
     text-decoration: none;
     color: #C62828;
 }
-
