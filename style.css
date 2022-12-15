@@ -1,11 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Roboto:wght@100&display=swap');
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: Arial, Helvetica, sans-serif;
-
-
+    font-family:'Montserrat','Roboto', sans-serif,Arial, Helvetica;
 }
 
 
@@ -146,7 +145,7 @@ button {
 
 .myabout {
     text-align: justify;
-    height: 72vh;
+    height: 80vh;
     color: unset;
     width: 97vw;
     display: flex;
@@ -156,12 +155,13 @@ button {
     margin: 20px 7px;
     padding: 0px 10px;
 }
+
 .myabout p {
-    word-wrap:normal;
-    font-size: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    font-size: 1.2rem;
     box-sizing: content-box;
     padding: 10px 25px;
+    text-align: justify;
 }
 
 
@@ -195,11 +195,13 @@ button {
     border-radius: 5px;
     animation: progress 5s;
 }
-hr{
-    height: 5px;
+
+hr {
+    height: 2px;
     background-color: black;
     border-style: solid;
 }
+
 @keyframes progress {
     from {
         width: 0;
@@ -241,7 +243,8 @@ hr{
     height: calc(100vh - 10vh);
     background-color: white;
 }
-.cont{
+
+.cont {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -251,6 +254,7 @@ hr{
     height: 40vh;
     width: 40vw;
 }
+
 input {
     height: 6.5vh;
     width: 38vw;
@@ -258,7 +262,7 @@ input {
     padding: 10px;
     border-bottom: 2px solid #C62828;
     margin: 3vh 0px;
-    color: black;
+    color:#231d23;
 }
 
 textarea {
@@ -269,7 +273,7 @@ textarea {
     resize: none;
     height: 17vh;
     width: 38vw;
-    color: black;
+    color:#231d23;
 }
 
 .sbtn {
@@ -314,17 +318,29 @@ textarea {
     font-size: 28px;
     padding: 9vh 0px;
 }
-.user img,.location img,.mail img{
+
+.user img,
+.location img,
+.mail img {
     margin: 10px;
     height: 40px;
 }
-.digitalcontatct{
+
+.digitalcontatct {
     display: flex;
     flex-direction: column;
 }
-.digitalcontatct label{
+
+.digitalcontatct label {
     position: relative;
     top: 10px;
+    margin: 5px 6px;
+}
+
+.user,
+.location,
+.mail {
+    display: flex;
 }
 
 @media screen and (max-width:750px),
@@ -338,22 +354,30 @@ textarea {
         width: 80vw;
     }
 
+    .user,
+    .location,
+    .mail {
+        display: flex;
+    }
+
     input {
-        width: 85vw;
-        height: 10px;
+        width: 80vw;
+        height: 40px;
         border-radius: 10px;
         padding: 2vh;
-        border: 2px solid #C62828;
+        /* border: 2px solid #C62828; */
         margin: 10px 15px;
+        color: #231d23;
     }
 
     textarea {
-        width: 85vw;
+        width: 80vw;
         border-radius: 10px;
         padding: 2vh;
-        border: 2px solid #C62828;
+        /* border: 2px solid #C62828; */
         margin: 10px 15px;
         resize: none;
+        color: #231d23;
     }
 
     .sbtn {
@@ -363,7 +387,7 @@ textarea {
         text-decoration: none;
         border-color: #231d23;
         background-color: #C62828;
-       
+        margin: 0px 15px;
     }
 
     .myskill {
@@ -387,6 +411,7 @@ textarea {
         margin: 8px 0px;
         color: white;
     }
+
     .digitalcontatct {
         display: flex;
         flex-direction: column;
@@ -394,10 +419,11 @@ textarea {
         width: 259px;
         top: 63px;
         position: relative;
-        right: 25px;
+        /* right: 25px; */
     }
-    
+
 }
+
 .myweb {
     text-decoration: none;
     color: #C62828;
