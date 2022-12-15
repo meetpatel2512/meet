@@ -18,7 +18,7 @@
 
 .navbar {
     transition: transform 0.3s ease-in;
-
+    position: absolute;
 
 
 }
@@ -28,19 +28,18 @@
 }
 
 .navbargo {
-    transform: translate(-443px, 0px);
+    transform: translate(-100vw, 0px);
     position: absolute;
 
 }
 
 .navbar ul li {
-    width: 25vw;
+    width: 80vw;
     background-color: #231d23;
     height: 100vh;
     padding: 100px 0px;
     z-index: 2;
-
-
+    opacity: 85%;
 }
 
 .navbar ul li a {
