@@ -58,7 +58,7 @@
 .navbar ul li {
     width: 80vw;
     background-color: #231d23;
-    height: 100vh;
+    height: calc(100vh - 37px);
     padding: 100px 0px;
     z-index: 2;
     opacity: 85%;
